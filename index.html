@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index_style.css">
+    <title>Posiciones</title>
+</head>
+
+
+<body>
+     <header>         
+        <img class="logo-head" src="imagenes/alura-removebg-preview.png" alt="Logo de la Barberia Alura">
+        <div class="titulo">
+        <p> Encriptador de alura </p>
+        </div>    
+    </header>
+
+    <section class="contenedor-principal">
+
+        <div class="Pop-up">
+            <h5 class="Pop-up-title">INFORMACION </h5>
+            <p id="parrafo">"Solo son permitidas letras minúsculas y sin acentos"</p>
+            <button class="Cerrar">X</button>
+        </div>
+
+        <section class="contenedor-texto">
+            <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+        </section>
+
+        <section class="contenedor-mensaje">
+            <textarea class="text-mensaje" cols="30" rows="10"> </textarea> 
+        </section>
+
+        <section class="contenedor-botones">
+            <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+            <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>                
+            <button class="copiar" onclick="copiar()">Copiar</button> 
+        </section>
+
+    </section>
+    <footer>      
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#15285c" fill-opacity="1" d="M0,32L17.1,26.7C34.3,21,69,11,103,26.7C137.1,43,171,85,206,85.3C240,85,274,43,309,48C342.9,53,377,107,411,112C445.7,117,480,75,514,80C548.6,85,583,139,617,186.7C651.4,235,686,277,720,250.7C754.3,224,789,128,823,101.3C857.1,75,891,117,926,154.7C960,192,994,224,1029,208C1062.9,192,1097,128,1131,117.3C1165.7,107,1200,149,1234,149.3C1268.6,149,1303,107,1337,74.7C1371.4,43,1406,21,1423,10.7L1440,0L1440,320L1422.9,320C1405.7,320,1371,320,1337,320C1302.9,320,1269,320,1234,320C1200,320,1166,320,1131,320C1097.1,320,1063,320,1029,320C994.3,320,960,320,926,320C891.4,320,857,320,823,320C788.6,320,754,320,720,320C685.7,320,651,320,617,320C582.9,320,549,320,514,320C480,320,446,320,411,320C377.1,320,343,320,309,320C274.3,320,240,320,206,320C171.4,320,137,320,103,320C68.6,320,34,320,17,320L0,320Z"></path></svg>
+          
+          // https://getwaves.io 
+    </footer>
+
+<script src="/script.js"></script>
+</body>
+</html>
